@@ -1,13 +1,14 @@
 body { 
    background-color: rgb(180,180,180);
-   font-family: sans-serif;  
+   font-family: sans-serif;
+   
 }
 
 #cabecalho{
     border: blue 1px solid;
     border: 10px;
     padding-left: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     box-shadow: brown 2px 2px 5px;
 }
 
@@ -15,23 +16,27 @@ body {
     background-color: aqua;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 2%; 
+    padding: 2%;
+
 } 
 
 a { 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: chartreuse;
+    color: blue;
     text-decoration: unset;
+
 }
 
 #navbar{
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+
 }
 
 #imgGeral{
     width: 100%;
+
 }
 
 #tituloDestaque{
@@ -39,4 +44,25 @@ a {
     display: flex;
     justify-content: center;
     text-shadow: gray 1px 1px 5px;
+
 }
+
+#produtos{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+
+
+}
+
+.produtoDestaque{
+    border: gray 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 3px;
+}
+
+
+
+
+
