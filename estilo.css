@@ -17,8 +17,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     padding: 2%;
-
-} 
+}
 
 a { 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -48,9 +47,8 @@ a {
 }
 
 #produtos{
-    display: flex;
-    justify-content: space-evenly;
-    overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+  display: flex;
+  justify-content: space-between;
 
 
 }
@@ -62,6 +60,66 @@ a {
     box-shadow: gray 2px 2px 3px;
 }
 
+.imgDestaque{
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+h3{
+    text-align: center;
+}
+
+.descDestaque{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(180,180,180);
+    margin-top: 30px; 
+}
+
+#redesSociais{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.rede{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email{
+    margin-right: 50px;
+}
+
+#receba{
+    color: white;
+ }
+
+ input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(80, 80, 250);
+    width: 100px;
+    height: 40px;
+    border: rgb(80, 80, 250) 1px solid;
+    color: white;
+    font-size: 20px;
+    box-shadow: white 2px 2px 5px;
+}
 
 
 
